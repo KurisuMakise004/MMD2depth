@@ -2,10 +2,9 @@
 **[Download](https://github.com/KurisuMakise004/MMD2depth/raw/main/MMD2UDP_win.7z)** |
 **[Google Colab](https://colab.research.google.com/github/KurisuMakise004/MMD2depth/blob/main/COLAB.ipynb)**
 
-A tool for converting MikuMikuDance models (.pmx) with motions(.vmd) to depth images sequences for use in Stable Diffusion 2.0 depth2img scripts.
+[MMD2depth](https://github.com/KurisuMakise004/MMD2depth) is a tool for converting [MikuMikuDance](https://sites.google.com/view/vpvp) models (.pmx) with motions(.vmd) to depth images sequences for use with depth2img scripts in [Stable Diffusion 2.0](https://github.com/KurisuMakise004/stablediffusion).
 
-
-This was based on the previous tool [MMD2UDP](https://github.com/KurisuMakise004/MMD2UDP), which converts MMD to [UltraDensePose](https://github.com/transpchan/transpchan.github.io/blob/57efe17cdce35cf2c49c8d11ebd9bac108d1ac59/live3d/CoNR.pdf). 
+This tool is based on the [MMD2UDP](https://github.com/KurisuMakise004/MMD2UDP), which converts MMD to [UltraDensePose](https://github.com/transpchan/transpchan.github.io/blob/57efe17cdce35cf2c49c8d11ebd9bac108d1ac59/live3d/CoNR.pdf). 
 
 
 ## Usage
