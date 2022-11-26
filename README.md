@@ -18,7 +18,5 @@ Using this tool for commercial purposes is allowed. However, you will still need
 4. Run UltraDensePose.exe and wait for the results in the `output` folder. The process might take very long for models with complicated physics setups, as the conversion process need to go through your `motion.vmd` and compute for each frame to obtain an depth image sequence.
 5. Read it with 
 ```
-import cv2
-os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "1"
-cv2.imread("output/0001",  cv2.IMREAD_ANYCOLOR | cv2.IMREAD_ANYDEPTH | cv2.IMREAD_UNCHANGED)
+cv2.imread("./output/0001",  cv2.IMREAD_ANYCOLOR | cv2.IMREAD_ANYDEPTH | cv2.IMREAD_UNCHANGED)
 ```
