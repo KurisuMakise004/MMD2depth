@@ -19,3 +19,7 @@ Using this tool for commercial purposes is allowed. However, you will still need
 ```
 cv2.imread("./output/0001",  cv2.IMREAD_ANYCOLOR | cv2.IMREAD_ANYDEPTH | cv2.IMREAD_UNCHANGED)
 ```
+
+## Configuration files
+
+You can configure `orthographic`, `framerate`, `frameoffset`, `udpaxis` (allowed values: UDPXYZ/UDPZXY/UDPXZY/DEPTH) by creating a file with the respective name.
